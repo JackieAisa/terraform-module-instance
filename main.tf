@@ -3,7 +3,7 @@ provider "aws" {
 } 
 
 resource "aws_instance" "web" {
-   ami = "ami-0c614dee691cbbf37"
+   ami = "ami-0e1bed4f06a3b463d"
    instance_type = var.instance_type
    user_data = file("apache.sh")
 
