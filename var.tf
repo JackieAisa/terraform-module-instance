@@ -3,5 +3,5 @@ variable instance_type {
 }
 
 variable name {
-    default = "HelloWorld"
+    default = "Amazon_Linux"
 }
